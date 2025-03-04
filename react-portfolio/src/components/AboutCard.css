@@ -1,0 +1,19 @@
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background-color: #FFFFFF; 
+    color: #000000; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container strong {
+    color: #006FEE; 
+  }
+  
+  .about-container p + p {
+    margin-top: 20px;
+  }
+  
