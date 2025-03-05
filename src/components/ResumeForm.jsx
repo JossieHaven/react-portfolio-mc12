@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div>
       <section className="about_page_resume">
-        <h1>Download my resume below:</h1>
+        <h1>Download my resume below:📃 </h1>
         <a href="/path-to-resume.pdf" download className="resume-download">Download Resume</a>
 
         <h2>Proficiencies:</h2>
@@ -46,7 +46,7 @@ function Resume() {
         </Tooltip>
         <Tooltip closeDelay={2000} color="warning" content="HTML5 & CSS3">
           <Button color="primary" variant="flat">
-            HTML5 & CSS3
+            HTML & CSS
           </Button>
         </Tooltip>
         <Tooltip closeDelay={2000} color="warning" content="Git & GitHub">
