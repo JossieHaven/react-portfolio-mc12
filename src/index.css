@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.footer {
+  background: linear-gradient(135deg, #2c2c2c, #4a4a4a);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.15);
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: #006FEE;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(34, 34, 34) 0%,
+    rgb(44, 44, 44) 50%,
+    rgb(66, 66, 66) 100%
+  );
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
