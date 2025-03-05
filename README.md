@@ -57,7 +57,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 ## Link Deployed App
-[Deployed App]()
+[Deployed App](https://react-portfolio-jh.netlify.app/)
 
 ## GitHub Repository
 [Github-Repo](https://github.com/JossieHaven/react-portfolio-mc12)
