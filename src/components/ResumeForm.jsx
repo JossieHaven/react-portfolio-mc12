@@ -1,5 +1,6 @@
 import React from "react";
 import { Tooltip, Button } from "@heroui/react";
+import "./ResumeForm.css"
 
 function Resume() {
   return (

@@ -1,11 +1,11 @@
 import { Card, CardBody, CardFooter, Image } from "@heroui/react";
-
+import "./Portfolio.css";
 
 export default function App() {
   const list = [
     {
-    title: "The Shire Portal",
-      link:"https://github.com/JossieHaven/studious-giggle-p1-g7",
+      title: "The Shire Portal",
+      link: "https://github.com/JossieHaven/studious-giggle-p1-g7",
       img: "https://github.com/JossieHaven/studious-giggle-p1-g7/blob/main/assets/images/pageSS.png?raw=true"
     },
     {
@@ -26,26 +26,28 @@ export default function App() {
   ];
 
   return (
-    <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-      {list.map((item, index) => (
-        <Card key={index} isPressable shadow="sm">
-          <CardBody className="overflow-visible p-0">
-            <Image
-              alt={item.title}
-              className="w-full object-cover h-[140px]"
-              radius="lg"
-              shadow="sm"
-              src={item.img}
-              width="100%"
-            />
-          </CardBody>
-          <CardFooter className="text-small justify-between">
-            <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              <b>{item.title}</b>
-            </a>
-          </CardFooter>
-        </Card>
-      ))}
+    <div className="app-container">
+      <div className="project-grid">
+        {list.map((item, index) => (
+          <Card key={index} className="project-card" isPressable shadow="sm">
+            <CardBody className="overflow-visible p-0">
+              <Image
+                alt={item.title}
+                className="w-full object-cover"
+                radius="lg"
+                shadow="sm"
+                src={item.img}
+                width="100%"
+              />
+            </CardBody>
+            <CardFooter className="project-card-footer">
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                {item.title}
+              </a>
+            </CardFooter>
+          </Card>
+        ))}
+      </div>
     </div>
   );
 }

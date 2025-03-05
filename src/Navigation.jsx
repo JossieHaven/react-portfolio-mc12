@@ -1,3 +1,6 @@
+import React from 'react';
+import './Navigation.css';
+
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
