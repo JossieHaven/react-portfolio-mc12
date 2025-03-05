@@ -5,7 +5,7 @@ export default function App() {
   const list = [
     {
     title: "The Shire Portal",
-      link:"hhttps://github.com/JossieHaven/studious-giggle-p1-g7",
+      link:"https://github.com/JossieHaven/studious-giggle-p1-g7",
       img: "https://github.com/JossieHaven/studious-giggle-p1-g7/blob/main/assets/images/pageSS.png?raw=true"
     },
     {
